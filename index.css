@@ -1,0 +1,77 @@
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+.main{
+
+    background-image: url(images/myin.jpg);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    /* position: relative; */
+    display: block;
+
+}
+.boxholder{
+    
+width: 50vw;
+height: 60vh;
+background-color: hsla(0, 0%, 50%, 0.616);
+margin: 150px 40px  70px 400px;
+position: absolute;
+padding: 30px 20px 50px;
+display: flex;
+justify-content: space-between;
+}
+.boxholder>.hour{
+    
+    width: 80px;
+    height: 50px;
+    background-color: rgb(184, 179, 179);
+    align-self: center;
+    text-align: center;
+    border-radius: 50%;
+    /* margin: 40px 30px 50px 30px; */
+    
+   
+}
+.minutes{
+    
+    width: 80px;
+    height:50px;
+    background-color: rgb(184, 179, 179);
+    /* margin-top: 40px;
+    margin-bottom: 50px; */
+    align-self: center;
+    text-align: center;
+    border-radius: 50%;
+    /* margin-right: 5px; */
+
+}
+.seconds{
+    
+    width: 80px;
+    height:50px;
+    background-color: rgb(184, 179, 179);
+    margin-top: 40px;
+    margin-bottom: 50px;
+    align-self: center;
+    text-align: center;
+    border-radius: 50%;
+
+}
+#demo,#demo2,#demo3{
+    align-items: center;
+    color: white;
+    text-align: center;
+    vertical-align: baseline;
+    margin-top: 10px;
+    font-size: 1.3em;
+
+
+}
+
+
+
